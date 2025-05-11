@@ -22,8 +22,8 @@ controls.update();
 
 function animate() {
     //controls.update();
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
+    //cube.rotation.x += 0.01;
+    //cube.rotation.y += 0.01;
     requestAnimationFrame( animate );
 
 	// required if controls.enableDamping or controls.autoRotate are set to true

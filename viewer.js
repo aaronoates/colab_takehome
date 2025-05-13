@@ -17,21 +17,21 @@ function main() {
   controls.target.set(0, 5, 0);
   controls.update();
 
-  const zoomStep = 1; // Adjust this for faster/slower zoom
+  const zoomStep = 50; // Adjust this for faster/slower zoom
 
-  document.getElementById('zoomIn').addEventListener('click', () => {
-    /*const direction = new THREE.Vector3();
+  document.getElementById('zoomOut').addEventListener('click', () => {
+    const direction = new THREE.Vector3();
     camera.getWorldDirection(direction);
     camera.position.addScaledVector(direction, -zoomStep);
-    controls.update();*/
+    controls.update();
     console.log("Zooming in");
   });
 
-  document.getElementById('zoomOut').addEventListener('click', () => {
-    /*const direction = new THREE.Vector3();
+  document.getElementById('zoomIn').addEventListener('click', () => {
+    const direction = new THREE.Vector3();
     camera.getWorldDirection(direction);
     camera.position.addScaledVector(direction, zoomStep);
-    controls.update();*/
+    controls.update();
     console.log("Zooming Out");
   });
  

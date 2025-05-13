@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 232, 232);
+}
+
+canvas {
+  width: 70vw;
+  height: 70vh;
+  display: block;
+}
+
+#controls {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+#controls button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+}

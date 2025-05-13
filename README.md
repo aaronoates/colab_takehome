@@ -5,7 +5,7 @@ This was a three.js project I wrote as a technical take-home that was part of th
 
 For me, three.js was installed using option 1 in the installation guide found at this link https://threejs.org/manual/#en/installation . Here are the steps to run this project: 
 
-Step 1: clone this project and open it in the directory you cloned it into. 
-Step 2: open a terminal and run the command "npx vite" and click on the local host link in the terminal.
+Step 1: unzip and extract this project to a directory in your computer.
+Step 2: open a terminal in this directory and run the command "npx vite" and click on the local host link in the terminal.
 
 Now you should see the webpage with the Apollo model. You can zoom in and out using the buttons or use the mouse/trackpad for more precise controls.

@@ -17,6 +17,25 @@ function main() {
   controls.target.set(0, 5, 0);
   controls.update();
 
+  const zoomStep = 1; // Adjust this for faster/slower zoom
+
+  document.getElementById('zoomIn').addEventListener('click', () => {
+    /*const direction = new THREE.Vector3();
+    camera.getWorldDirection(direction);
+    camera.position.addScaledVector(direction, -zoomStep);
+    controls.update();*/
+    console.log("Zooming in");
+  });
+
+  document.getElementById('zoomOut').addEventListener('click', () => {
+    /*const direction = new THREE.Vector3();
+    camera.getWorldDirection(direction);
+    camera.position.addScaledVector(direction, zoomStep);
+    controls.update();*/
+    console.log("Zooming Out");
+  });
+ 
+
   const scene = new THREE.Scene();
   scene.background = new THREE.Color('black');
 
